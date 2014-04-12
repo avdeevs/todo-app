@@ -1,1 +1,2 @@
-window.RoscredAdmin.Router.map () ->
+window.Todo.Router.map () ->
+  @route 'must'
