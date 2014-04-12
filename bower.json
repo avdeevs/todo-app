@@ -1,0 +1,10 @@
+{
+  "name": "todo-app",
+  "dependencies": {
+    "handlebars": "1.1.2",
+    "ember": "1.2.0",
+    "ember-data": "1.0.0-beta.4",
+    "jquery": "~1.10.2",
+    "emblem.js":"latest"
+  }
+}

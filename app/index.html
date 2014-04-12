@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>todo-app</title>
+    <meta name="description" content="">
+    <meta name = "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "initial-scale = 1.0">
+
+    <!-- for more details visit: https://github.com/yeoman/grunt-usemin -->
+
+    <!-- build:js(.) /assets/vendor.min.js -->
+
+    <!-- @if dist=false -->
+    <script src="/vendor/handlebars/handlebars.js"></script>
+    <script src="/vendor/ember/ember.js"></script>
+    <script src="/vendor/ember-data/ember-data.js"></script>
+    <!-- @endif --><!-- @if dist=true -->
+    <script src="/vendor/handlebars/handlebars.runtime.js"></script>
+    <script src="/vendor/ember/ember.prod.js"></script>
+    <script src="/vendor/ember-data/ember-data.prod.js"></script>
+    <!-- @endif -->
+
+    <!-- endbuild -->
+
+    <!-- build:js(tmp/public) /assets/app.min.js -->
+    <link rel="stylesheet" href="/assets/app.css" media="all">
+    <!-- @if dist=false -->
+    <script src="/assets/application.js"></script>
+    <script src="/assets/routes.js"></script>
+    <script src="/assets/controllers.js"></script>
+    <script src="/assets/models.js"></script>
+    <script src="/assets/views.js"></script>
+    <!-- @endif --><!-- @if dist=true -->
+    <script src="/assets/app.js"></script>
+    <!-- @endif --><!-- @if test=true -->
+    <!-- @endif -->
+    <script src="/assets/templates.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+</body>
+</html>
