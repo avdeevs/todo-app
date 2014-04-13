@@ -1,7 +1,12 @@
 .container
-  = link-to 'must' | must
-  = link-to 'should' | should
-  = link-to 'could' | could
+  .collapse.navbar-collapse
+    ul.nav.navbar-nav
+      li
+        link-to 'must' | must
+      li
+        link-to 'should' | should
+      li
+        link-to 'could' | could
   //.row
   //  .col-md-6
   //    = outlet

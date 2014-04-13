@@ -4,4 +4,6 @@ Todo.MustRoute = Ember.Route.extend
     @store.findAll('todo')
 
   setupController: (controller, model)->
-    console.log(model.get('firstObject.priority'))
+    todos = model.filter (todo)->
+      todo.get('priority') == 'must'
+    controller.set('model', todos)

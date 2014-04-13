@@ -1,7 +1,5 @@
 table.table.table-hover
-  tr
-    Todo.TodoView
-      |row 1
-  tr
-    Todo.TodoView
-      |row 2
+  each todo in model
+    tr
+      Todo.TodoView success=todo.isCompleted
+        = todo.title

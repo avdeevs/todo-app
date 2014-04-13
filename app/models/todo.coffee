@@ -21,5 +21,11 @@ Todo.Todo.FIXTURES = [
     title: 'Profit!'
     isCompleted: false
     priority: 'could'
+  },
+  {
+    id: 4
+    title: '4th'
+    isCompleted: false
+    priority: 'must'
   }
 ]
