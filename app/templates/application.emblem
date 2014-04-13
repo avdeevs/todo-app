@@ -1,4 +1,8 @@
 .container
-  .row
-    .col-md-6
-      = outlet
+  = link-to 'must' | must
+  = link-to 'should' | should
+  = link-to 'could' | could
+  //.row
+  //  .col-md-6
+  //    = outlet
+  = outlet

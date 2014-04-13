@@ -3,5 +3,5 @@ table.table.table-hover
     Todo.TodoView
       |row 1
   tr
-    td
-      |row2
+    Todo.TodoView
+      |row 2

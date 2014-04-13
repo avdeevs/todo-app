@@ -9,3 +9,5 @@ vendor/jquery
 vendor/bourbon
 .sass-cache
 build/public
+.idea
+**/.DS_Store
