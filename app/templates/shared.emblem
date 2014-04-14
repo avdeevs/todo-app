@@ -1,0 +1,9 @@
+a.btn.btn-default href="#" click=createTodo
+  | Add
+Ember.TextField value=newTodoTitle placeholder="Enter new todo here" action="createTodo"
+
+table.table.table-hover
+  each todo in model
+    tr
+      Todo.TodoView success=todo.isCompleted
+        = todo.title

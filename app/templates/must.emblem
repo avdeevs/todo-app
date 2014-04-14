@@ -1,9 +1,0 @@
-a.btn.btn-danger href="#" click=createTodo
-  | Add
-Ember.TextField value=newTodoTitle placeholder="enter todo"
-
-table.table.table-hover
-  each todo in model
-    tr
-      Todo.TodoView success=todo.isCompleted
-        = todo.title

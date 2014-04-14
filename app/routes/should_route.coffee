@@ -1,6 +1,6 @@
-Todo.MustRoute = Ember.Route.extend Todo.TodoRoutesMixin,
+Todo.ShouldRoute = Ember.Route.extend Todo.TodoRoutesMixin,
 
   setupController: (controller, model)->
     todos = model.filter (todo)->
-      todo.get('priority') == 'must'
+      todo.get('priority') == 'should'
     controller.set('model', todos)
