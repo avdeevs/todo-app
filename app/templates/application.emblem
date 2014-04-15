@@ -1,6 +1,7 @@
 .container
   .collapse.navbar-collapse
-    ul.nav.navbar-nav
+    /ul.nav.navbar-nav
+    ul.nav.nav-pills
       li
         link-to 'must' | must
       li
