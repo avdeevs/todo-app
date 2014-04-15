@@ -1,14 +1,17 @@
 .container
-  .collapse.navbar-collapse
-    /ul.nav.navbar-nav
-    ul.nav.nav-pills
-      li
-        link-to 'must' | must
-      li
-        link-to 'should' | should
-      li
-        link-to 'could' | could
-  //.row
-  //  .col-md-6
-  //    = outlet
+  br
+  nav.navbar.navbar-inverse role="navigation"
+    .container-fluid
+      .navbar-header
+        .navbar-brand
+          | YourTodos
+      .collapse.navbar-collapse id="bs-example-navbar-collapse-9"
+        ul.nav.navbar-nav
+          li
+            link-to 'must' activeClass="activeNavLink" | must
+          li
+            link-to 'should' activeClass="activeNavLink" | should
+          li
+            link-to 'could' activeClass="activeNavLink" | could
+
   = outlet

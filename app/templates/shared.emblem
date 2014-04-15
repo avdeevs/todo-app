@@ -1,9 +1,17 @@
-a.btn.btn-default href="#" click=createTodo
-  | Add
-Ember.TextField value=newTodoTitle placeholder="Enter new todo here" action="createTodo"
-
-table.table.table-hover
-  each todo in model itemController="todo"
-    tr
-      Todo.TodoView success=todo.isCompleted
-        = todo.title
+div.container-fluid
+  .panel.panel-default
+    .panel-heading
+      .input-group
+        span.input-group-btn
+          a.btn.btn-default type="button" href="#" click=createTodo
+            | Add
+        Todo.InputTodoView value=newTodoTitle placeholder="Enter new todo here" action="createTodo"
+    ul.list-group
+      each todo in model itemController="todo"
+        Todo.TodoView list-group-item-success=todo.isCompleted
+          if todo.isCompleted
+            span.form-control-feedback.glyphicon.glyphicon-plus
+          else
+            span.form-control-feedback.glyphicon.glyphicon-minus
+          span.todo-title
+            = todo.title

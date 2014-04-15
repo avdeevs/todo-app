@@ -1,0 +1,8 @@
+a.activeNavLink {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 1px;
+}
+.todo-title{
+    border-left: 1px solid #ccc; padding: 5px 10px; margin: 15px;
+}

@@ -1,6 +1,7 @@
 Todo.TodoView = Ember.View.extend
-  tagName: 'td'
-  classNameBindings: ['success']
+  tagName: 'li'
+  classNames: ['list-group-item']
+  classNameBindings: ['list-group-item-success']
 
   click: ->
-    @toggleProperty('success')
+    @toggleProperty('list-group-item-success')
