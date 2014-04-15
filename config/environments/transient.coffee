@@ -7,4 +7,3 @@ Ember.Application.initializer
     application.ApplicationAdapter = DS.FixtureAdapter.extend()
     #application.ApplicationAdapter = DS.LSAdapter.extend
     #  namespace: 'todos-emberjs'
-

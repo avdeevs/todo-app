@@ -3,7 +3,7 @@ a.btn.btn-default href="#" click=createTodo
 Ember.TextField value=newTodoTitle placeholder="Enter new todo here" action="createTodo"
 
 table.table.table-hover
-  each todo in model
+  each todo in model itemController="todo"
     tr
       Todo.TodoView success=todo.isCompleted
         = todo.title
