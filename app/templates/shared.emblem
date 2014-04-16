@@ -10,8 +10,10 @@ div.container-fluid
       each todo in model itemController="todo"
         Todo.TodoView list-group-item-success=todo.isCompleted
           if todo.isCompleted
-            span.form-control-feedback.glyphicon.glyphicon-plus
+            span.big-text
+              | +
           else
-            span.form-control-feedback.glyphicon.glyphicon-minus
+            span.big-text
+              | -
           span.todo-title
             = todo.title

@@ -8,10 +8,10 @@
       .collapse.navbar-collapse id="bs-example-navbar-collapse-9"
         ul.nav.navbar-nav
           li
-            link-to 'must' activeClass="activeNavLink" | must
+            link-to 'must' activeClass="active-nav-link" | must
           li
-            link-to 'should' activeClass="activeNavLink" | should
+            link-to 'should' activeClass="active-nav-link" | should
           li
-            link-to 'could' activeClass="activeNavLink" | could
+            link-to 'could' activeClass="active-nav-link" | could
 
   = outlet

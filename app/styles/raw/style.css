@@ -1,8 +1,12 @@
-a.activeNavLink {
+a.active-nav-link {
     border: 1px solid grey;
     border-radius: 10px;
     margin: 1px;
 }
-.todo-title{
+.todo-title {
     border-left: 1px solid #ccc; padding: 5px 10px; margin: 15px;
+}
+span.big-text {
+    font: bold 150% serif;
+    font-family: monospace;
 }
